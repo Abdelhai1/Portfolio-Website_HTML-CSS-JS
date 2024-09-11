@@ -8,15 +8,16 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: #000000;
     color: #fff;
 }
-#header{
+#header {
     width: 100%;
     height: 100vh;
-    background-image: url(assets/images/background.png);
-    background-size: cover;
-    background-position: center;
+    background-image: url('assets/images/background.gif');
+    background-size: auto 70%; 
+    background-position: right center; 
+    background-repeat: no-repeat; 
 }
 .container{
     padding: 20px 10%;
@@ -324,7 +325,7 @@ nav .fa-solid{
 /* CSS for small screen */
 @media only screen and (max-width: 600px) {
     #header{
-        background-image: url(assets/images/phone-background.png);
+        background-image: url(assets/images/phone-background.gif);
     }
     .header-text{
         margin-top: 100%;
@@ -377,3 +378,4 @@ nav .fa-solid{
         flex-basis: 100%;
     }
 }
+
